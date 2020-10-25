@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MailCHW1</string>
+    <string name="add_number_btn">Add number</string>
+    <string name="num_info_btn_back">Back</string>
+</resources>

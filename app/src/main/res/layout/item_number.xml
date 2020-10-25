@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_item_num"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_rl_height"
+    tools:context=".NumListFragment">
+<TextView
+    android:id="@+id/item_tv_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textSize="@dimen/item_tv_text_size"/>
+
+</RelativeLayout>
