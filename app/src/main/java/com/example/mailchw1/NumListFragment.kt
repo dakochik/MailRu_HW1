@@ -80,6 +80,14 @@ class NumListFragment : Fragment() {
         outState.putIntegerArrayList(ActivityMain.NUM_ARRAY, numbers)
     }
 
+    override fun onViewStateRestored(savedInstanceState: Bundle?) {
+        super.onViewStateRestored(savedInstanceState)
+
+        var list = savedInstanceState?.getIntegerArrayList(NUM_ARRAY)
+        if(list != null)
+            numbers = list
+    }
+
     override fun onDetach() {
         super.onDetach()
 
